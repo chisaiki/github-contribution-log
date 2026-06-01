@@ -3,15 +3,17 @@
 # Contribution [#]: [Issue Title]
 
 **Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Student:** Syeda Rahman
+**Issue:** [\[GitHub issue link\]](https://github.com/autowarefoundation/agnocast/issues/943)  
+**Status:** [**Phase I** / Phase II / Phase III / Phase IV] [**In Progress** / Complete]
 
 ---
 
 ## Why I Chose This Issue
 
-[1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+I chose this issue because it sits directly at the intersection of my coursework and hands-on project experience. I've taught Operating Systems and Computer Architecture at the university level, and I've built low-level systems projects involving lock-free data structures, multithreading, and Linux process management. Kernel-userspace data transfer via ioctl is exactly the kind of problem I find most interesting — it requires thinking carefully about memory, boundaries, and performance simultaneously.  
+
+The page boundary edge case flagged in the issue description is what really drew me in. Changing copy_to_user to copy only ret_entry_num entries is straightforward, but reasoning correctly about what happens when a large array crosses page boundaries is a genuine systems challenge. I want to understand how production kernel code handles that class of problem, and contributing a correct solution here would push me to think at that level.
 
 ---
 
