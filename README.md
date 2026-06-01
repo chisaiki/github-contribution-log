@@ -1,6 +1,6 @@
 # github-contribution-log
 
-# Contribution [#]: [Issue Title]
+# Contribution [1]: [Issue Title]
 
 **Contribution Number:** [1 / 2 / 3]  
 **Student:** Syeda Rahman
